@@ -1,0 +1,26 @@
+{
+    "name": "firehed/php7ize",
+    "description": "Tools to quickly add PHP7 features to your existing codebase",
+    "require-dev": {
+        "firehed/arctools": "~1.0",
+        "phpunit/phpunit": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Firehed\\PHP7ize\\": ["src/", "tests/"]
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Eric Stern",
+            "email": "eric@ericstern.com"
+        }
+    ],
+    "bin": [
+        "bin/php7ize"
+    ],
+    "require": {
+        "ulrichsg/getopt-php": "~2.3"
+    }
+}
